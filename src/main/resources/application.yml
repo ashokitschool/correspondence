@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: ashokit
+    password: AshokIT@123
+    url: jdbc:mysql://localhost:3306/jrtp
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: javaproject.02.7am@gmail.com
+    password: jljljll
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
